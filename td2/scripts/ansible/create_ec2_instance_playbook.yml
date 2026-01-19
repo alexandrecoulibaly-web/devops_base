@@ -2,7 +2,7 @@
   hosts: localhost
   gather_facts: no
   vars: 
-    ansible_python_interpreter: /home/amkco/.venvs/ansible/bin/python
+    ansible_python_interpreter: /mnt/c/Users/amkco/devops_base/td2/scripts/ansible/venv/bin/python
   environment:
     AWS_REGION: us-east-2
   tasks:    
